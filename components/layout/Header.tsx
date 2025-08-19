@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Award,
 } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,7 +67,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <div className="flex items-center">
-              <a href="#home" className="flex items-center gap-3 group">
+              <Link href="/" className="flex items-center gap-3 group">
                 <div className="text-2xl md:text-3xl font-extrabold transition-colors text-slate-900">
                   KOMZZ
                 </div>
@@ -78,7 +79,7 @@ const Navbar = () => {
                     Available Now
                   </span>
                 </div>
-              </a>
+              </Link>
             </div>
 
             {/* Desktop Navigation */}
@@ -177,15 +178,15 @@ const Navbar = () => {
             {/* CTA & Contact */}
             <div className="flex items-center gap-3">
               {/* Primary CTA */}
-              <a
-                href="#contact"
+              <Link
+                href="/booking-call"
                 className="group bg-orange-500 hover:bg-orange-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-xl font-bold text-sm md:text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
                 <span className="hidden sm:inline">Call Me</span>
                 <span className="sm:hidden">Call</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
 
               {/* Mobile Menu Button */}
               <button
@@ -252,14 +253,14 @@ const Navbar = () => {
 
               {/* Mobile CTA */}
               <div className="border-t border-slate-200 pt-4">
-                <a
-                  href="#contact"
+                <Link
+                  href="/booking-call"
                   className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-bold text-center transition-all duration-300 flex items-center justify-center gap-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <Phone className="w-5 h-5" />
                   Book Free Strategy Call
-                </a>
+                </Link>
               </div>
             </div>
           </div>

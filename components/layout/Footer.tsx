@@ -3,16 +3,13 @@ import {
   Phone,
   Mail,
   MapPin,
-  Globe,
   Linkedin,
   Twitter,
   Youtube,
   ArrowRight,
-  Star,
-  Clock,
-  Shield,
   Award,
 } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -254,48 +251,47 @@ const Footer = () => {
             <div className="grid md:grid-cols-2 gap-6 items-center">
               {/* Left - Copyright & Links */}
               <div className="space-y-3">
-                <div className="text-slate-400 text-sm">
-                  © 2025 KOMZZ International Expansion Consulting. All rights
-                  reserved.
+                <div>
+                  <div className="text-slate-400 text-sm">
+                    © 2025 KOMZZ International Expansion Consulting. All rights
+                    reserved.{" "}
+                  </div>
+                  <Link
+                    href="https://wassim-msf.com"
+                    target="_blank"
+                    className="text-slate-400 text-xs mt-1 hover:underline"
+                  >
+                    Made by Wassim
+                  </Link>
                 </div>
+
                 <div className="flex flex-wrap gap-4 text-xs text-slate-400">
-                  <a
-                    href="#privacy"
+                  <Link
+                    href="/privacy-policy"
                     className="hover:text-white transition-colors"
                   >
                     Privacy Policy
-                  </a>
-                  <a
-                    href="#terms"
-                    className="hover:text-white transition-colors"
-                  >
-                    Terms of Service
-                  </a>
-                  <a
-                    href="#cookies"
-                    className="hover:text-white transition-colors"
-                  >
-                    Cookie Policy
-                  </a>
-                  <a
+                  </Link>
+
+                  <Link
                     href="#sitemap"
                     className="hover:text-white transition-colors"
                   >
                     Sitemap
-                  </a>
+                  </Link>
                 </div>
               </div>
 
               {/* Right - Quick CTA */}
               <div className="text-right">
-                <a
-                  href="#contact"
+                <Link
+                  href="/booking-call"
                   className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105"
                 >
                   <Phone className="w-4 h-4" />
                   Book Free Strategy Call
                   <ArrowRight className="w-4 h-4" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

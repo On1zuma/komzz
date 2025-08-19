@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, ArrowRight, Clock, CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 const FinalCTA = () => {
   return (
@@ -52,11 +53,13 @@ const FinalCTA = () => {
 
           {/* Main CTA */}
           <div className="space-y-6">
-            <button className="group bg-white hover:bg-slate-50 text-orange-600 px-10 py-5 rounded-2xl font-bold text-xl md:text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center justify-center gap-4 mx-auto">
-              <Phone className="w-6 h-6 md:w-7 md:h-7" />
-              Book Your Call Now
-              <ArrowRight className="w-6 h-6 md:w-7 md:h-7 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <Link href="/booking-call">
+              <button className="group cursor-pointer bg-white hover:bg-slate-50 text-orange-600 px-10 py-5 rounded-2xl font-bold text-xl md:text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center justify-center gap-4 mx-auto">
+                <Phone className="w-6 h-6 md:w-7 md:h-7" />
+                Book Your Call Now
+                <ArrowRight className="w-6 h-6 md:w-7 md:h-7 group-hover:translate-x-1 transition-transform" />
+              </button>{" "}
+            </Link>
           </div>
         </div>
       </div>
