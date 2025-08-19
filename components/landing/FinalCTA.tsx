@@ -21,7 +21,7 @@ const FinalCTA = () => {
             </h2>
 
             <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-3xl mx-auto">
-              Let's discuss how I can help you expand internationally
+              Let&apos;s discuss how I can help you expand internationally
             </p>
           </div>
 

@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  ArrowRight,
-  Phone,
   Target,
   Globe,
   TrendingUp,
@@ -293,8 +291,8 @@ const ServicesSection = () => {
               </h3>
 
               <p className="text-lg text-slate-300 leading-relaxed">
-                I don't disappear after launch. International expansion is an
-                ongoing journey, and I'm here for the long haul.
+                I don&apos;t disappear after launch. International expansion is
+                an ongoing journey, and I&apos;m here for the long haul.
               </p>
 
               <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -318,31 +316,6 @@ const ServicesSection = () => {
                     Optimization, scaling, expansion
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom CTA */}
-          <div className="text-center">
-            <div className="space-y-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-slate-900">
-                Ready to Transform Your Business Globally?
-              </h3>
-              <p className="text-lg text-slate-700 max-w-3xl mx-auto">
-                Let's discuss which services are right for your international
-                expansion goals.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-                <button className="group bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-3">
-                  <Phone className="w-5 h-5" />
-                  Book Strategy Session
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-
-                <button className="border-2 border-slate-300 hover:border-slate-900 text-slate-700 hover:text-slate-900 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
-                  Download Service Guide
-                </button>
               </div>
             </div>
           </div>

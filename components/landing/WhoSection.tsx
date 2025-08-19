@@ -184,31 +184,6 @@ const WhoSection = () => {
               </div>
             </div>
           </div>
-
-          {/* Bottom CTA */}
-          <div className="text-center mt-12 md:mt-16">
-            <div className="space-y-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-white">
-                Sound Like You?
-              </h3>
-              <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Stop spinning your wheels. Let's have a real conversation about
-                your international growth.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-                <button className="group bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-3">
-                  <Phone className="w-5 h-5" />
-                  Let's Talk Strategy
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-
-                <button className="border border-slate-400 text-slate-300 hover:text-white hover:border-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
-                  See My Track Record
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

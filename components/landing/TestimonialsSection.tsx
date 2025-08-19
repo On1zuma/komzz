@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  ArrowRight,
-  Phone,
-  Star,
-  Quote,
-  TrendingUp,
-  Globe,
-  Users,
-} from "lucide-react";
+import { Star, Quote, TrendingUp, Globe, Users } from "lucide-react";
 
 const TestimonialsSection = () => {
   return (
@@ -48,9 +40,9 @@ const TestimonialsSection = () => {
                 <Quote className="w-12 h-12 text-orange-400" />
 
                 <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight">
-                  "Finally, someone who gets international business AND speaks
-                  human. Joe didn't just translate our content—he transformed
-                  how we think about global markets."
+                  &quot;Finally, someone who gets international business AND
+                  speaks human. Joe didn&apos;t just translate our content—he
+                  transformed how we think about global markets.&quot;
                 </blockquote>
 
                 <div className="space-y-2">
@@ -138,9 +130,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "We tried expanding to France for 2 years with zero success.
-                  Joe figured out what we were doing wrong in 2 weeks. Our
-                  French revenue is now 40% of our total business."
+                  &quot;We tried expanding to France for 2 years with zero
+                  success. Joe figured out what we were doing wrong in 2 weeks.
+                  Our French revenue is now 40% of our total business.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -170,9 +162,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "Joe doesn't just do the work—he teaches you how to think
-                  internationally. Our whole team now approaches expansion
-                  completely differently."
+                  &quot;Joe doesn&apos;t just do the work—he teaches you how to
+                  think internationally. Our whole team now approaches expansion
+                  completely differently.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -202,9 +194,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "The ROI was insane. We spent €15K with Joe and made €180K in
-                  new international revenue in the first 4 months. Best
-                  investment we've ever made."
+                  &quot;The ROI was insane. We spent €15K with Joe and made
+                  €180K in new international revenue in the first 4 months. Best
+                  investment we&apos;ve ever made.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -234,9 +226,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "Joe saved us from a massive mistake. We were about to launch
-                  in Japan with completely wrong messaging. His cultural
-                  insights were spot-on."
+                  &quot;Joe saved us from a massive mistake. We were about to
+                  launch in Japan with completely wrong messaging. His cultural
+                  insights were spot-on.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -266,9 +258,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "Working with Joe was like having a international business
-                  co-founder. He's invested in your success, not just delivering
-                  a project."
+                  &quot;Working with Joe was like having a international
+                  business co-founder. He&apos;s invested in your success, not
+                  just delivering a project.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -298,9 +290,9 @@ const TestimonialsSection = () => {
                 </div>
 
                 <blockquote className="text-slate-200 leading-relaxed">
-                  "We went from 'hoping' international would work to having a
-                  systematic approach. Joe turned guesswork into predictable
-                  growth."
+                  &quot;We went from &apos;hoping&apos; international would work
+                  to having a systematic approach. Joe turned guesswork into
+                  predictable growth.&quot;
                 </blockquote>
 
                 <div className="flex items-center gap-4">
@@ -321,7 +313,7 @@ const TestimonialsSection = () => {
           {/* Stats Banner */}
           <div className="bg-gradient-to-r from-slate-800 to-slate-700 border border-slate-600 rounded-2xl p-8 md:p-12 mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
-              The Numbers Don't Lie
+              The Numbers Don&apos;t Lie
             </h3>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">

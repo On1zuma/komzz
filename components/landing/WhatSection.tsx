@@ -54,10 +54,10 @@ const WhatSection = () => {
                   {/* Quote Under Photo */}
                   <div className="mt-6 text-center space-y-2">
                     <p className="text-slate-800 font-bold text-lg">
-                      "That's not just business talk—
+                      &quot;That&apos;s not just business talk—
                     </p>
                     <p className="text-orange-600 font-bold text-xl">
-                      that's my mission."
+                      that&apos;s my mission.&quot;
                     </p>
                   </div>
                 </div>
@@ -107,9 +107,9 @@ const WhatSection = () => {
 
                 <div className="bg-slate-100 border-l-4 border-orange-500 p-6 rounded-lg">
                   <p className="text-lg text-slate-700 italic">
-                    "That's not just business talk—that's my mission. I've seen
-                    too many great companies stay small because international
-                    expansion feels impossible."
+                    &quot;That&apos;s not just business talk—that&apos;s my
+                    mission. I&apos;ve seen too many great companies stay small
+                    because international expansion feels impossible.&quot;
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const WhatSection = () => {
               {/* Vision Points */}
               <div className="space-y-6">
                 <h4 className="text-2xl font-bold text-slate-900">
-                  Here's What I Envision For You:
+                  Here&apos;s What I Envision For You:
                 </h4>
 
                 <div className="space-y-4">
@@ -131,7 +131,7 @@ const WhatSection = () => {
                       </h5>
                       <p className="text-slate-700">
                         Instead of seeing international markets as scary
-                        unknowns, you'll view them as your next big revenue
+                        unknowns, you&apos;ll view them as your next big revenue
                         opportunities.
                       </p>
                     </div>
@@ -146,8 +146,9 @@ const WhatSection = () => {
                         Predictable International Growth
                       </h5>
                       <p className="text-slate-700">
-                        You'll have a repeatable system for entering new
-                        markets, not just "hoping it works" every time.
+                        You&apos;ll have a repeatable system for entering new
+                        markets, not just &quot;hoping it works&quot; every
+                        time.
                       </p>
                     </div>
                   </div>
@@ -161,9 +162,9 @@ const WhatSection = () => {
                         Cultural Confidence
                       </h5>
                       <p className="text-slate-700">
-                        You'll stop worrying about "saying the wrong thing" and
-                        start connecting authentically with international
-                        customers.
+                        You&apos;ll stop worrying about &quot;saying the wrong
+                        thing&quot; and start connecting authentically with
+                        international customers.
                       </p>
                     </div>
                   </div>
@@ -178,7 +179,7 @@ const WhatSection = () => {
                       </h5>
                       <p className="text-slate-700">
                         Multiple income streams from different countries, so
-                        you're never dependent on just one market again.
+                        you&apos;re never dependent on just one market again.
                       </p>
                     </div>
                   </div>
@@ -195,7 +196,7 @@ const WhatSection = () => {
                   opportunities, not stressed about them.
                   <span className="font-bold text-orange-600">
                     {" "}
-                    That's success to me.
+                    That&apos;s success to me.
                   </span>
                 </p>
               </div>

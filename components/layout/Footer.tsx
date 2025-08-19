@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors">
                   <Mail className="w-4 h-4 text-orange-400" />
-                  <span className="text-sm">joe@komzz.com</span>
+                  <span className="text-sm">hello@komzz.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-slate-300">
                   <MapPin className="w-4 h-4 text-orange-400" />
@@ -312,7 +312,7 @@ const Footer = () => {
             "International expansion expert helping businesses break through language barriers and scale globally",
           url: "https://komzz.com",
           telephone: "+1-555-123-GLOBAL",
-          email: "joe@komzz.com",
+          email: "hello@komzz.com",
           founder: {
             "@type": "Person",
             name: "Joe",

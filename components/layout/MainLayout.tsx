@@ -113,7 +113,7 @@ const Layout: React.FC<LayoutProps> = ({
             "Part Language Strategist, part Business Development Advisor, part Market-Entry Tech Consultant",
         },
         telephone: "+1 (555) 123-GLOBAL",
-        email: "joe@komzz.com",
+        email: "hello@komzz.com",
         priceRange: "€€€",
         areaServed: [
           {

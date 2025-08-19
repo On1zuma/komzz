@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, Phone, MapPin, Users } from "lucide-react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
-                  Hi, I'm Joe 👋
+                  Hi, I&apos;m Joe 👋
                   <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-600">
                     Ready to Go Global?
@@ -37,12 +38,12 @@ const Hero = () => {
                 </p>
 
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  If you're struggling with language barriers, cultural
-                  differences, or just don't know where to start with global
-                  expansion —
+                  If you&apos;re struggling with language barriers, cultural
+                  differences, or just don&apos;t know where to start with
+                  global expansion —
                   <span className="font-semibold text-orange-600">
                     {" "}
-                    let's talk.
+                    let&apos;s talk.
                   </span>
                 </p>
               </div>
@@ -81,7 +82,7 @@ const Hero = () => {
 
                 <button className="border-2 border-slate-300 hover:border-slate-900 text-slate-700 hover:text-slate-900 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                   <Users className="w-5 h-5" />
-                  See Success Stories
+                  Case Studies
                 </button>
               </div>
 
@@ -89,8 +90,8 @@ const Hero = () => {
               <p className="text-sm text-slate-500 pt-4">
                 💬{" "}
                 <span className="font-medium">
-                  "Finally, someone who gets international business AND speaks
-                  human."
+                  &quot;Finally, someone who gets international business AND
+                  speaks human.&quot;
                 </span>{" "}
                 — Sarah K., CEO
               </p>
@@ -131,7 +132,7 @@ const Hero = () => {
                     {/* Quote Under Photo */}
                     <div className="mt-6 text-center">
                       <p className="text-slate-700 font-medium text-lg">
-                        "I don't do corporate fluff."
+                        &quot;I don&apos;t do corporate fluff.&quot;
                       </p>
                       <p className="text-slate-600 text-sm mt-1">
                         Real strategies. Real results. Real conversations.
@@ -161,21 +162,129 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* Bottom Section */}
 
       {/* Bottom Section */}
       <div className="relative z-10 px-4 md:px-6 pt-16 pb-8">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-slate-600 text-sm mb-6">
-            Companies I've helped expand globally:
+            Companies I&apos;ve helped expand globally:
           </p>
-          <div className="flex justify-center items-center gap-8 opacity-60">
-            <div className="w-24 h-8 bg-slate-300 rounded"></div>
-            <div className="w-24 h-8 bg-slate-300 rounded"></div>
-            <div className="w-24 h-8 bg-slate-300 rounded"></div>
-            <div className="w-24 h-8 bg-slate-300 rounded"></div>
+
+          {/* Logos Carousel */}
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll items-center justify-center gap-12 md:gap-16">
+              {/* First set of logos */}
+              <Image
+                src="/logo/logo-4.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+                priority
+              />
+              <Image
+                src="/logo/logo-5.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-6.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-07.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-08.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-09.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+
+              {/* Duplicate set for seamless loop */}
+              <Image
+                src="/logo/logo-10.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-11.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-12.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-4.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-5.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+              <Image
+                src="/logo/logo-6.webp"
+                alt="Client logo"
+                width={96}
+                height={40}
+                className="h-8 md:h-10 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+              />
+            </div>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+
+        .animate-scroll {
+          animation: scroll 20s linear infinite;
+        }
+
+        .animate-scroll:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </div>
   );
 };

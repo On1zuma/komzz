@@ -48,9 +48,10 @@ const BlogSection = () => {
                 </h3>
 
                 <p className="text-slate-600 leading-relaxed">
-                  The secret to successful European expansion isn't about having
-                  a huge budget—it's about strategic planning and knowing
-                  exactly where to focus your resources for maximum impact.
+                  The secret to successful European expansion isn&apos;t about
+                  having a huge budget—it&apos;s about strategic planning and
+                  knowing exactly where to focus your resources for maximum
+                  impact.
                 </p>
 
                 <div className="flex items-center justify-between pt-4 border-t border-slate-100">
@@ -86,7 +87,7 @@ const BlogSection = () => {
                 </h3>
 
                 <p className="text-slate-600 leading-relaxed">
-                  Cultural nuances matter more than you think. Here's how
+                  Cultural nuances matter more than you think. Here&apos;s how
                   strategic localization can 3x your conversion rates and why
                   automated translation is sabotaging your global growth.
                 </p>
@@ -124,9 +125,9 @@ const BlogSection = () => {
                 </h3>
 
                 <p className="text-slate-600 leading-relaxed">
-                  From payment gateways to multi-language automation, here's my
-                  complete tech stack for scaling globally. These tools can make
-                  or break your international expansion.
+                  From payment gateways to multi-language automation,
+                  here&apos;s my complete tech stack for scaling globally. These
+                  tools can make or break your international expansion.
                 </p>
 
                 <div className="flex items-center justify-between pt-4 border-t border-slate-100">

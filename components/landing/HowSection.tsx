@@ -191,9 +191,9 @@ const HowSection = () => {
 
                   <div className="bg-white/5 rounded-lg p-4 text-left">
                     <p className="text-slate-300 italic">
-                      "I don't just translate your stuff and hope for the best.
-                      I help you think, speak, and sell like a local in every
-                      market you enter."
+                      &quot;I don&apos;t just translate your stuff and hope for
+                      the best. I help you think, speak, and sell like a local
+                      in every market you enter.&quot;
                     </p>
                   </div>
                 </div>
@@ -261,14 +261,14 @@ const HowSection = () => {
                 Ready to Scale Beyond Borders?
               </h3>
               <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-                Stop guessing. Stop hoping. Let's build a systematic approach to
-                international growth.
+                Stop guessing. Stop hoping. Let&apos;s build a systematic
+                approach to international growth.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
                 <button className="group bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-3">
                   <Phone className="w-5 h-5" />
-                  Let's Discuss Your Expansion
+                  Let&apos;s Discuss Your Expansion
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
 

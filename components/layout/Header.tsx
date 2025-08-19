@@ -9,14 +9,13 @@ import {
   Users,
   BookOpen,
   ArrowRight,
-  Star,
   Award,
 } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [activeDropdown, setActiveDropdown] = useState<null | "services">(null);
 
   // Handle scroll effect
   useEffect(() => {
@@ -153,7 +152,7 @@ const Navbar = () => {
                 href="#about"
                 className="px-4 py-2 rounded-lg font-medium transition-all duration-200 text-slate-700 hover:text-orange-600 hover:bg-orange-50"
               >
-                About Joe
+                About Me
               </a>
 
               {/* Case Studies */}
@@ -161,7 +160,7 @@ const Navbar = () => {
                 href="#case-studies"
                 className="px-4 py-2 rounded-lg font-medium transition-all duration-200 text-slate-700 hover:text-orange-600 hover:bg-orange-50"
               >
-                Success Stories
+                Case Studies
                 <div className="absolute -top-1 -right-1 w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
               </a>
 
@@ -171,7 +170,7 @@ const Navbar = () => {
                 className="flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-200 text-slate-700 hover:text-orange-600 hover:bg-orange-50"
               >
                 <BookOpen className="w-4 h-4" />
-                Insights
+                Blog
               </a>
             </div>
 
@@ -233,7 +232,7 @@ const Navbar = () => {
                   className="block py-2 text-slate-700 hover:text-orange-600 transition-colors font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  About Joe
+                  About Me
                 </a>
                 <a
                   href="#case-studies"
